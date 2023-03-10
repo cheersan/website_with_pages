@@ -113,7 +113,6 @@ a:hover, footer a:hover {
 .applogos {
 	margin:0 20px;
 }
-/* max-width:956px; */
 hr {
 	margin:40px 0;
 }
@@ -147,4 +146,67 @@ header a > img {
 	position:fixed;
 	bottom:50px;
 	right:50px;
+}
+#rest1 {
+	background-image: url("restaurant.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:100%;
+	background-size: cover;
+	max-width:956px;
+}
+.pushkin {
+	padding:40px 30px;
+	margin-top:80px;
+	margin-bottom:80px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+	border-radius: 2px;
+	max-width:956px;
+}
+.pushkin p {
+	background-color:black;
+	color:white;
+	border-radius: 16px;
+	padding:8px 16px;
+	max-width:100px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 15px;
+}
+.pushkin h1 {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 42px;
+	margin:0;
+}
+.starinka {
+	height:76.5px;
+}
+.filter_b {
+	padding:30px 20px;
+}
+.filter_b a {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #626262;
+	margin-right:40px;
+	text-decoration:none;
+}
+.filter_b a:hover {
+	color: #c8c8c8;
+}
+.pikcha {
+	float:right;
+}
+.col-xs-12.col-md-12.col-lg-6 {
+	border: 1px solid rgba(117, 117, 117, 0.2);
+	border-radius: 2px;
+	padding-right:0;
+	margin:15px 0;
 }
